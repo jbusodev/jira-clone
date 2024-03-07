@@ -1,4 +1,7 @@
-![Static Badge](https://img.shields.io/badge/state-in_progress-blue)
+<p align="center">
+<img alt="Static Badge" src="https://img.shields.io/badge/state-in_progress-blue">
+<img alt="Static Badge" src="https://img.shields.io/badge/stage-development-orange">
+</p>
 
 # Laravel - Jira Clone
 
