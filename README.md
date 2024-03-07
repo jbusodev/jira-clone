@@ -11,7 +11,7 @@ This project is a jira clone built with Laravel using Laravel Breeze + React.
     -   sprints
         -   tasks
 
-## Database Schem
+## Database Schema
 
 This is a draft of the database schema that is subject to evolve.
 
