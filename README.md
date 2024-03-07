@@ -1,4 +1,5 @@
-![Static Badge](https://img.shields.io/badge/state%20-in%20progres-blue)
+![Static Badge](https://img.shields.io/badge/state-in_progress-blue)
+
 # Laravel - Jira Clone
 
 This project is a jira clone built with Laravel using Laravel Breeze + React.
