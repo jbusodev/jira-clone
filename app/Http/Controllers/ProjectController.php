@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
-// use App\Http\Requests\StoreProjectRequest;
+use App\Models\Project;
+use App\Http\Requests\StoreProjectRequest;
 use Illuminate\Http\RedirectResponse;
 use Illuminate\Http\Request;
-use App\Models\Project;
 use Inertia\Inertia;
 use Inertia\Response;
 
@@ -23,7 +23,7 @@ class ProjectController extends Controller
         return view('projects.create');
     }
 
-    public function store(Request $request)
+    public function store(Request $request): RedirectResponse
     {
         $request->validate([
             'name' => 'required',
@@ -50,7 +50,7 @@ class ProjectController extends Controller
 
     }
 
-    public function update(Request $request, Project $project)
+    public function update(Request $request, Project $project): RedirectResponse
     {
         $request->validate([
             'name' => 'required',
